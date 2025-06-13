@@ -27,7 +27,7 @@
 
     <!-- Texto CENTRAL - posição absoluta -->
     <div class="position-absolute top-50 start-50 translate-middle">
-      <h4 class="fw-bold m-0">La femme</h6>
+      <h3 class="fw-bold m-0">LA FEMME</h3>
     </div>
 
     <!-- Itens colapsáveis -->
@@ -56,10 +56,9 @@
 </nav>
 
 <!--Carrousel-->
-<h4 style="color: rgb(207, 112, 175);" class="text-center">Vestidos</h4>
 <div>
   <div id="carouselExample" class= "carousel slide">
-  <div class="carousel-inner" style="margin: 10px auto ; width: 80%;">
+  <div class="carousel-inner" style="margin: 10px auto ; width: 100%;">
     <div class="carousel-item active">
       <img src="IMG/1.png" class="d-block mx-auto" style="width: 40%" alt="1">
     </div>
@@ -67,7 +66,7 @@
       <img src="IMG/2.png" class="d-block mx-auto" style="width: 40%" alt="1">
     </div>
     <div class="carousel-item">
-      <img src="IMG/3.png" class="d-block mx-auto" style="width: 40%" alt="1">
+      <img src="IMG/3.png" class="d-block mx-auto" style="width: 40%" alt="10">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -81,14 +80,48 @@
 </div>
 
 <!--Cards-->
-<div class="card" style="width: 10rem; margin: 20px auto;">
-  <img src="IMG/3.png" class="center" alt="10"  >
-  <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+<div class="container">
+  <div class="row justify-content-between text-center">
+
+    <!-- Card Esquerdo -->
+    <div class="col-md-4">
+      <div class="card mx-auto" style="width: 10rem;">
+        <img src="IMG/3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card Esquerdo</h5>
+          <p class="card-text">Texto do card esquerdo.</p>
+          <a href="#" class="btn btn-primary">Ação</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Central -->
+    <div class="col-md-4">
+      <div class="card mx-auto" style="width: 10rem;">
+        <img src="IMG/2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card Centro</h5>
+          <p class="card-text">Texto do card central.</p>
+          <a href="#" class="btn btn-primary">Ação</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card Direito -->
+    <div class="col-md-4">
+      <div class="card mx-auto" style="width: 10rem;">
+        <img src="IMG/1.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card Direito</h5>
+          <p class="card-text">Texto do card direito.</p>
+          <a href="#" class="btn btn-primary">Ação</a>
+        </div>
+      </div>
+    </div>
+
   </div>
 </div>
+
 
 <!--Footer-->
 <footer class="bg-dark text-white text-center text-lg-start">
